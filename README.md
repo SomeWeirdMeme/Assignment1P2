@@ -1,18 +1,13 @@
-## Getting Started
+# Assignment 1 Programming 2
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+The Assignment is heavily focused on arraylist and inheritance. The skeleton is based on a student, Employee manager inheritance structure.
 
-## Folder Structure
+## Structure
 
-The workspace contains two folders by default, where:
+Everything sits inside a single folder called Assignment1 with five files total. Two files act as the test runners—`ArrayListProblem.java` and `InheritanceProblem.java`—which hold the main methods where execution starts. The other three files—`StudentList.java`, `Employee.java`, and `Manager.java`—act purely as blueprints working behind the scenes to define the data and object behaviors.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### How to run
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. Open in Visual studio Code
+2.Go to ArrayListProblem or Inheritance Problem
+3.See the comments and follow to make running the main method easier.
