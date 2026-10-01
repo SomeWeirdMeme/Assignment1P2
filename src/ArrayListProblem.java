@@ -27,7 +27,7 @@ public class ArrayListProblem
                     String choice = scanner.nextLine().trim();
                     if (choice.equalsIgnoreCase("y") || choice.equalsIgnoreCase("yes")) {
                         deleteStudent(studentList, nameToCheck);
-                        System.out.println("Updated list of students: " + studentList);
+                        System.out.println("Updated list of students: " + studentList + " (" + getNumberOfStudents(studentList) + " students in the list.)");
                     }
                 } else {
                     System.out.println(nameToCheck + " is not in list.");
@@ -65,4 +65,10 @@ public class ArrayListProblem
         }
         System.out.println(name + " is not in list.");
     }
+
+    public static int getNumberOfStudents(ArrayList<String> studentList) {
+        return studentList.size();
+    }
+
+    
 }
